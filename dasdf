@@ -1,0 +1,55 @@
+[1mdiff --git a/gisdk-examples/01_iterativeGeocoding/iterative_geocoding.py b/gisdk-examples/01_iterativeGeocoding/iterative_geocoding.py[m
+[1mindex 6b8d469..a239244 100644[m
+[1m--- a/gisdk-examples/01_iterativeGeocoding/iterative_geocoding.py[m
+[1m+++ b/gisdk-examples/01_iterativeGeocoding/iterative_geocoding.py[m
+[36m@@ -5,8 +5,8 @@[m
+ [m
+ import caliperpy[m
+ [m
+[31m-def (dk):[m
+[31m-    # try:[m
+[32m+[m[32mdef iterative_geocoding (dk):[m
+[32m+[m[32m    try:[m
+         # Assume the view/table name is provided[m
+         view = dk.GetView()[m
+         out_folder = "c:\\temp\\"[m
+[36m@@ -34,31 +34,32 @@[m [mdef (dk):[m
+         result = geo.LocateView("ADDRESS", view + "|", id_field, [address_field, None, postal_field], opts)[m
+         result_dict = dict(result)[m
+         layer_name = result_dict["LayerName"][m
+[31m-        not_found_set = result_dict.get("NotFoundSet")[m
+[31m-[m
+[32m+[m[41m        [m
+         # Update field specs for the newly created layer[m
+         id_field = dk.GetFieldFullSpec(layer_name, "ID")[m
+         postal_field = dk.GetFieldFullSpec(layer_name, "ZIP")[m
+         city_field = dk.GetFieldFullSpec(layer_name, "City")[m
+         state_field = dk.GetFieldFullSpec(layer_name, "State")[m
+ [m
+[31m-        # If some records were not found, try geocoding again by ADDRESS[m
+[32m+[m[32m        # If some records were not found, try geocoding again by POSTALCODE[m
+[32m+[m[32m        not_found_set = result_dict.get("NotFoundSet")[m
+         if not_found_set is not None and layer_name is not None:[m
+[31m-            input_fields = [address_field, None, postal_field][m
+[31m-            result = geo.LocateView("ADDRESS", view + "|", id_field, input_fields, opts)[m
+[32m+[m[32m            input_fields = [postal_field][m
+[32m+[m[32m            result = geo.LocateView("POSTALCODE", view + "|", id_field, input_fields, opts)[m
+ [m
+         # For any records still not found, try geocoding by CITY[m
+         not_found_set = result_dict.get("NotFoundSet")[m
+         if not_found_set is not None and layer_name is not None:[m
+[31m-            result = geo.LocateView("CITY", layer_name + "|" + not_found_set, id_field, [city_field, state_field], None)[m
+[32m+[m[32m            result = geo.LocateView("CITY", layer_name + "|" + not_found_set, id_field, [city_field, state_field], opts)[m
+ [m
+         print("Iterative geocoding result:", result)[m
+         return result[m
+ [m
+[31m-    #except Exception as e:[m
+[32m+[m[32m    except Exception as e:[m
+         print("Error during iterative geocoding:", e)[m
+ [m
+ # Example usage:[m
+ if __name__ == "__main__":[m
+     dk = caliperpy.Maptitude.connect()[m
+     iterative_geocoding(dk)[m
+[32m+[m[32m    caliperpy.Maptitude.disconnect()[m

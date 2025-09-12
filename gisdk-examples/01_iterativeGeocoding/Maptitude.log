@@ -1,0 +1,21 @@
+(Fri Sep 12 10:04:40 2025) Invalid Best Match Wizard specification in the input data catalog. Verify locate_views.ADDRESS.try_methods and map_wizard.layers.*.try_methods
+(Fri Sep 12 10:05:21 2025) Invalid Best Match Wizard specification in the input data catalog. Verify locate_views.ADDRESS.try_methods and map_wizard.layers.*.try_methods
+(Fri Sep 12 10:05:59 2025) Invalid Best Match Wizard specification in the input data catalog. Verify locate_views.ADDRESS.try_methods and map_wizard.layers.*.try_methods
+(Fri Sep 12 10:07:40 2025) Invalid Best Match Wizard specification in the input data catalog. Verify locate_views.ADDRESS.try_methods and map_wizard.layers.*.try_methods
+(Fri Sep 12 10:08:01 2025) Invalid Best Match Wizard specification in the input data catalog. Verify locate_views.ADDRESS.try_methods and map_wizard.layers.*.try_methods
+(Fri Sep 12 10:11:45 2025) Invalid Best Match Wizard specification in the input data catalog. Verify locate_views.ADDRESS.try_methods and map_wizard.layers.*.try_methods
+(Fri Sep 12 10:12:24 2025) Invalid Best Match Wizard specification in the input data catalog. Verify locate_views.ADDRESS.try_methods and map_wizard.layers.*.try_methods
+(Fri Sep 12 10:14:20 2025) Attempt to open modal dbox "G30 select by value dbox" caused an error.
+(Fri Sep 12 10:16:22 2025) Attempt to open modal dbox "G30 Table Specs" caused an error.
+(Fri Sep 12 10:16:24 2025) Attempt to open modal dbox "G30 Table Specs" caused an error.
+(Fri Sep 12 10:18:09 2025) Attempt to open modal dbox "G30 select by value dbox" caused an error.
+Gisdk error executing function GetFieldFullSpec(('ParcelInfo_Layer', 'ID'))
+Traceback (most recent call last):
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\caliperpy\caliper3.py", line 612, in __gisdk_function
+    o = self.__obj.RunMacro(function_name, *(_list(arg) for arg in args))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject Maptitude.AutomationServer>", line 4, in RunMacro
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\win32com\client\dynamic.py", line 366, in _ApplyTypes_
+    result = self._oleobj_.InvokeTypes(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+pywintypes.com_error: (-2147023174, 'The RPC server is unavailable.', None, None)
