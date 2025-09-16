@@ -5,9 +5,9 @@
 
 import caliperpy
 
-def (dk):
-    # try:
-        # Assume the view/table name is provided
+def iterative_geocoding (dk):
+    try:
+        # Assume the correct view/table is open and current
         view = dk.GetView()
         out_folder = "c:\\temp\\"
 
@@ -34,31 +34,32 @@ def (dk):
         result = geo.LocateView("ADDRESS", view + "|", id_field, [address_field, None, postal_field], opts)
         result_dict = dict(result)
         layer_name = result_dict["LayerName"]
-        not_found_set = result_dict.get("NotFoundSet")
-
+        
         # Update field specs for the newly created layer
         id_field = dk.GetFieldFullSpec(layer_name, "ID")
         postal_field = dk.GetFieldFullSpec(layer_name, "ZIP")
         city_field = dk.GetFieldFullSpec(layer_name, "City")
         state_field = dk.GetFieldFullSpec(layer_name, "State")
 
-        # If some records were not found, try geocoding again by ADDRESS
+        # If some records were not found, try geocoding again by POSTALCODE
+        not_found_set = result_dict.get("NotFoundSet")
         if not_found_set is not None and layer_name is not None:
-            input_fields = [address_field, None, postal_field]
-            result = geo.LocateView("ADDRESS", view + "|", id_field, input_fields, opts)
+            input_fields = [postal_field]
+            result = geo.LocateView("POSTALCODE", view + "|", id_field, input_fields, opts)
 
         # For any records still not found, try geocoding by CITY
         not_found_set = result_dict.get("NotFoundSet")
         if not_found_set is not None and layer_name is not None:
-            result = geo.LocateView("CITY", layer_name + "|" + not_found_set, id_field, [city_field, state_field], None)
+            result = geo.LocateView("CITY", layer_name + "|" + not_found_set, id_field, [city_field, state_field], opts)
 
         print("Iterative geocoding result:", result)
         return result
 
-    #except Exception as e:
+    except Exception as e:
         print("Error during iterative geocoding:", e)
 
 # Example usage:
 if __name__ == "__main__":
     dk = caliperpy.Maptitude.connect()
     iterative_geocoding(dk)
+    caliperpy.Maptitude.disconnect()

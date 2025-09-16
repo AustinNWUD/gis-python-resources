@@ -1,0 +1,207 @@
+Gisdk error executing function AddLayer((None, 'Scattered evenly', 'c:\\temp\\Scattered.dbd'))
+Traceback (most recent call last):
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\caliperpy\caliper3.py", line 612, in __gisdk_function
+    o = self.__obj.RunMacro(function_name, *(_list(arg) for arg in args))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject Maptitude.AutomationServer>", line 4, in RunMacro
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\win32com\client\dynamic.py", line 366, in _ApplyTypes_
+    result = self._oleobj_.InvokeTypes(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Maptitude.AutomationServer', 'Wrong number of arguments to function AddLayer. Expected 4 to 5, found 3.', None, 0, -2147352567), None)
+Gisdk error executing function AddLayer((None, 'Scattered evenly', 'c:\\temp\\Scattered.dbd', None))
+Traceback (most recent call last):
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\caliperpy\caliper3.py", line 612, in __gisdk_function
+    o = self.__obj.RunMacro(function_name, *(_list(arg) for arg in args))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject Maptitude.AutomationServer>", line 4, in RunMacro
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\win32com\client\dynamic.py", line 366, in _ApplyTypes_
+    result = self._oleobj_.InvokeTypes(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Maptitude.AutomationServer', 'AddLayer returned an error. (1)', None, 0, -2147352567), None)
+Gisdk error executing function AddLayer((None, 'Scattered evenly', 'c:\\temp\\Scattered.dbd', None))
+Traceback (most recent call last):
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\caliperpy\caliper3.py", line 612, in __gisdk_function
+    o = self.__obj.RunMacro(function_name, *(_list(arg) for arg in args))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject Maptitude.AutomationServer>", line 4, in RunMacro
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\win32com\client\dynamic.py", line 366, in _ApplyTypes_
+    result = self._oleobj_.InvokeTypes(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Maptitude.AutomationServer', 'AddLayer returned an error. (1)', None, 0, -2147352567), None)
+Gisdk error executing function AddLayer((None, 'Scattered evenly', 'c:\\temp\\Scattered.dbd', None))
+Traceback (most recent call last):
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\caliperpy\caliper3.py", line 612, in __gisdk_function
+    o = self.__obj.RunMacro(function_name, *(_list(arg) for arg in args))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject Maptitude.AutomationServer>", line 4, in RunMacro
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\win32com\client\dynamic.py", line 366, in _ApplyTypes_
+    result = self._oleobj_.InvokeTypes(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Maptitude.AutomationServer', 'AddLayer returned an error. (1)', None, 0, -2147352567), None)
+(Thu Sep 11 18:00:07 2025) Attempt to open modal dbox "G30 Windows New View" caused an error.
+(Thu Sep 11 18:00:10 2025) Attempt to open modal dbox "G30 Windows New View" caused an error.
+(Thu Sep 11 18:00:14 2025) Attempt to open modal dbox "G30 Windows New View" caused an error.
+Gisdk error executing function AddLayer((None, 'Parcels - Scattered evenly', 'c:\\temp\\Scattered.dbd', 'Parcels - Scattered evenly', None))
+Traceback (most recent call last):
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\caliperpy\caliper3.py", line 612, in __gisdk_function
+    o = self.__obj.RunMacro(function_name, *(_list(arg) for arg in args))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject Maptitude.AutomationServer>", line 4, in RunMacro
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\win32com\client\dynamic.py", line 366, in _ApplyTypes_
+    result = self._oleobj_.InvokeTypes(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Maptitude.AutomationServer', 'AddLayer returned an error. (1)', None, 0, -2147352567), None)
+Gisdk error executing function AddLayer(('', 'Parcels - Centered', 'c:\\temp\\Centered.dbd', 'Parcels - Centered', None))
+Traceback (most recent call last):
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\caliperpy\caliper3.py", line 612, in __gisdk_function
+    o = self.__obj.RunMacro(function_name, *(_list(arg) for arg in args))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject Maptitude.AutomationServer>", line 4, in RunMacro
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\win32com\client\dynamic.py", line 366, in _ApplyTypes_
+    result = self._oleobj_.InvokeTypes(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Maptitude.AutomationServer', 'AddLayer returned an error. (1)', None, 0, -2147352567), None)
+Gisdk error executing function AddLayer(('', 'Parcels - Centered', 'c:\\temp\\Centered.dbd', 'Parcels - Centered', None))
+Traceback (most recent call last):
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\caliperpy\caliper3.py", line 612, in __gisdk_function
+    o = self.__obj.RunMacro(function_name, *(_list(arg) for arg in args))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject Maptitude.AutomationServer>", line 4, in RunMacro
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\win32com\client\dynamic.py", line 366, in _ApplyTypes_
+    result = self._oleobj_.InvokeTypes(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Maptitude.AutomationServer', 'Duplicate layer.', None, 0, -2147352567), None)
+Gisdk error executing function AddLayer(('', 'Parcels - Centered', 'c:\\temp\\Centered.dbd', 'Parcels - Centered', None))
+Traceback (most recent call last):
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\caliperpy\caliper3.py", line 612, in __gisdk_function
+    o = self.__obj.RunMacro(function_name, *(_list(arg) for arg in args))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject Maptitude.AutomationServer>", line 4, in RunMacro
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\win32com\client\dynamic.py", line 366, in _ApplyTypes_
+    result = self._oleobj_.InvokeTypes(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Maptitude.AutomationServer', 'Duplicate layer.', None, 0, -2147352567), None)
+(Thu Sep 11 18:15:09 2025) Attempt to open modal dbox "G30 select by value dbox" caused an error.
+Gisdk error executing function AddLayer(('', 'Parcels - Centered', 'c:\\temp\\Centered.dbd', 'Parcels - Centered', None))
+Traceback (most recent call last):
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\caliperpy\caliper3.py", line 612, in __gisdk_function
+    o = self.__obj.RunMacro(function_name, *(_list(arg) for arg in args))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject Maptitude.AutomationServer>", line 4, in RunMacro
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\win32com\client\dynamic.py", line 366, in _ApplyTypes_
+    result = self._oleobj_.InvokeTypes(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Maptitude.AutomationServer', 'Duplicate layer.', None, 0, -2147352567), None)
+(Thu Sep 11 18:20:37 2025) Attempt to open modal dbox "G30 Layer Status" caused an error.
+Gisdk error executing function AddLayer(('', 'Parcels - Centered', 'c:\\temp\\Centered.dbd', 'Parcels - Centered', None))
+Traceback (most recent call last):
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\caliperpy\caliper3.py", line 612, in __gisdk_function
+    o = self.__obj.RunMacro(function_name, *(_list(arg) for arg in args))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject Maptitude.AutomationServer>", line 4, in RunMacro
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\win32com\client\dynamic.py", line 366, in _ApplyTypes_
+    result = self._oleobj_.InvokeTypes(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Maptitude.AutomationServer', 'Duplicate layer.', None, 0, -2147352567), None)
+(Thu Sep 11 18:23:52 2025) Attempt to open modal dbox "Workspace Quick Start" caused an error.
+(Thu Sep 11 18:23:58 2025) Attempt to open modal dbox "Workspace Quick Start" caused an error.
+(Thu Sep 11 18:24:01 2025) CloseDbox returned an error.
+Reference info: menumacs, 1823, notfound.
+
+Gisdk error executing function GetView(())
+Traceback (most recent call last):
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\caliperpy\caliper3.py", line 612, in __gisdk_function
+    o = self.__obj.RunMacro(function_name, *(_list(arg) for arg in args))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject Maptitude.AutomationServer>", line 4, in RunMacro
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\win32com\client\dynamic.py", line 366, in _ApplyTypes_
+    result = self._oleobj_.InvokeTypes(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+pywintypes.com_error: (-2147023174, 'The RPC server is unavailable.', None, None)
+(Thu Sep 11 18:26:22 2025) Attempt to open modal dbox "G30 Table Specs" caused an error.
+(Thu Sep 11 18:28:29 2025) Attempt to open modal dbox "G30 Windows New View" caused an error.
+(Thu Sep 11 18:28:33 2025) Attempt to open modal dbox "G30 Windows New View" caused an error.
+(Thu Sep 11 18:29:29 2025) Attempt to open modal dbox "G30 Windows New View" caused an error.
+Gisdk error executing function AddLayer(('', 'Parcels - Centered', 'c:\\temp\\Centered.dbd', 'Parcels - Centered', None))
+Traceback (most recent call last):
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\caliperpy\caliper3.py", line 612, in __gisdk_function
+    o = self.__obj.RunMacro(function_name, *(_list(arg) for arg in args))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject Maptitude.AutomationServer>", line 4, in RunMacro
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\win32com\client\dynamic.py", line 366, in _ApplyTypes_
+    result = self._oleobj_.InvokeTypes(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Maptitude.AutomationServer', 'Duplicate layer.', None, 0, -2147352567), None)
+(Thu Sep 11 18:34:23 2025) Attempt to open modal dbox "MapWizard.StartSheet" caused an error.
+(Thu Sep 11 18:34:26 2025) Attempt to open modal dbox "Workspace Quick Start" caused an error.
+(Thu Sep 11 18:34:29 2025) CloseDbox returned an error.
+Reference info: menumacs, 1823, notfound.
+
+Gisdk error executing RunMacro('apply_method','gis_ui',(<COMObject <unknown>>, 'Cleanup', ()))
+Traceback (most recent call last):
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\caliperpy\caliper3.py", line 697, in apply
+    o = self.__obj.RunUIMacro(macro_name, ui_name, *(_list(arg) for arg in args))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject Maptitude.AutomationServer>", line 4, in RunUIMacro
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\win32com\client\dynamic.py", line 366, in _ApplyTypes_
+    result = self._oleobj_.InvokeTypes(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+pywintypes.com_error: (-2147023174, 'The RPC server is unavailable.', None, None)
+Gisdk error executing function AddLayer(('', 'Parcels - Centered', 'c:\\temp\\Centered.dbd', 'Parcels - Centered', None))
+Traceback (most recent call last):
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\caliperpy\caliper3.py", line 612, in __gisdk_function
+    o = self.__obj.RunMacro(function_name, *(_list(arg) for arg in args))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject Maptitude.AutomationServer>", line 4, in RunMacro
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\win32com\client\dynamic.py", line 366, in _ApplyTypes_
+    result = self._oleobj_.InvokeTypes(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Maptitude.AutomationServer', 'Duplicate layer.', None, 0, -2147352567), None)
+(Thu Sep 11 18:57:23 2025) This workspace is already open.
+(Thu Sep 11 19:05:23 2025) Attempt to open modal dbox "G30 Windows New View" caused an error.
+Gisdk error executing RunMacro('apply_method','gis_ui',(<COMObject <unknown>>, 'Cleanup', ()))
+Traceback (most recent call last):
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\caliperpy\caliper3.py", line 697, in apply
+    o = self.__obj.RunUIMacro(macro_name, ui_name, *(_list(arg) for arg in args))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject Maptitude.AutomationServer>", line 4, in RunUIMacro
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\win32com\client\dynamic.py", line 366, in _ApplyTypes_
+    result = self._oleobj_.InvokeTypes(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+pywintypes.com_error: (-2147023174, 'The RPC server is unavailable.', None, None)
+(Fri Sep 12 10:20:11 2025) Attempt to open modal dbox "G30 select by value dbox" caused an error.
+(Fri Sep 12 10:23:40 2025) Attempt to open modal dbox "User Preferences" caused an error.
+(Fri Sep 12 10:24:51 2025) Attempt to open modal dbox "G30 Layer Status" caused an error.
+(Fri Sep 12 10:25:09 2025) Attempt to open modal dbox "Expressions" caused an error.
+(Fri Sep 12 10:25:31 2025) Attempt to open modal dbox "G30 select by value dbox" caused an error.
+(Fri Sep 12 10:25:35 2025) Attempt to open modal dbox "G30 Layer Status" caused an error.
+(Fri Sep 12 10:25:36 2025) Attempt to open modal dbox "G30 Dot Density" caused an error.
+(Fri Sep 12 10:25:36 2025) Attempt to open modal dbox "G30 prism map settings" caused an error.
+(Fri Sep 12 10:25:37 2025) Attempt to open modal dbox "G30 Shade by Value" caused an error.
+(Fri Sep 12 10:25:38 2025) Attempt to open modal dbox "G30 prompt" caused an error.
+(Fri Sep 12 10:26:00 2025) Attempt to open modal dbox "G30 export" caused an error.
+Gisdk error executing function GetViews((None,))
+Traceback (most recent call last):
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\caliperpy\caliper3.py", line 612, in __gisdk_function
+    o = self.__obj.RunMacro(function_name, *(_list(arg) for arg in args))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject Maptitude.AutomationServer>", line 4, in RunMacro
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\win32com\client\dynamic.py", line 366, in _ApplyTypes_
+    result = self._oleobj_.InvokeTypes(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+pywintypes.com_error: (-2147023174, 'The RPC server is unavailable.', None, None)
+Gisdk error executing RunMacro('apply_method','gis_ui',(<COMObject <unknown>>, 'Cleanup', ()))
+Traceback (most recent call last):
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\caliperpy\caliper3.py", line 697, in apply
+    o = self.__obj.RunUIMacro(macro_name, ui_name, *(_list(arg) for arg in args))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject Maptitude.AutomationServer>", line 4, in RunUIMacro
+  File "C:\Users\armando\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\win32com\client\dynamic.py", line 366, in _ApplyTypes_
+    result = self._oleobj_.InvokeTypes(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+pywintypes.com_error: (-2147023174, 'The RPC server is unavailable.', None, None)
+(Fri Sep 12 10:30:19 2025) Attempt to open modal dbox "G30 select by value dbox" caused an error.
+(Fri Sep 12 10:30:22 2025) Attempt to open modal dbox "User Preferences" caused an error.
+(Fri Sep 12 10:30:28 2025) Attempt to open modal dbox "G30 export" caused an error.
+(Fri Sep 12 16:59:45 2025) Attempt to open modal dbox "G30 Selection Settings" caused an error.
+(Fri Sep 12 16:59:49 2025) You must create a color or multiple symbol theme to use this command.
